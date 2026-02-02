@@ -681,11 +681,11 @@ CONTEST_TEXTS = {
 
 # ---------- Shop items ----------
 SHOP_DEFAULTS = {
-    "coffee": {"qty": 2, "price": 500,
+    "coffee": {"qty": 3, "price": 400,
                "name": {"ru": "Афродизиак", "en": "Aphrodisiac"},
                "desc": {"ru": "Добавляет +2 попытки, но увеличивает откат на 30 минут.",
                         "en": "Adds +2 attempts but increases cooldown by 30 minutes."}},
-    "wine": {"qty": 2, "price": 400,
+    "wine": {"qty": 4, "price": 50,
              "name": {"ru": "Вино", "en": "Wine"},
              "desc": {"ru": "Следующая попытка будет успехом, а следующее после него — гарантированно неудачей.",
                       "en": "Your next attempt will succeed, but the one after that is guaranteed to fail."}},
@@ -693,11 +693,11 @@ SHOP_DEFAULTS = {
                 "name": {"ru": "Поддельный значок охранника", "en": "Fake security badge"},
                 "desc": {"ru": "Против цели с телохранителем шанс станет 1/2, но откат увеличится на 30 минут.",
                          "en": "Against a protected target your chance becomes 1/2, but cooldown increases by 30 minutes."}},
-    "insurance": {"qty": 1, "price": 500,
+    "insurance": {"qty": 2, "price": 200,
                   "name": {"ru": "Страхование капитала", "en": "Capital insurance"},
                   "desc": {"ru": "Один проигрыш в казино не спишет ставку.",
                            "en": "One casino loss will not deduct your stake."}},
-    "candy": {"qty": 1, "price": 400,
+    "candy": {"qty": 2, "price": 400,
               "name": {"ru": "Презервативы", "en": "Condoms"},
               "desc": {"ru": "При неудаче с шансом 1/2 попытка не будет потрачена.",
                        "en": "On a failed there is a 1/2 chance the attempt won't be consumed."}},
